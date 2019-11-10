@@ -28,8 +28,8 @@ def Decrypt(cipher, p, q) :
     return ''.join(plain)
 
 if __name__ == '__main__' :
-    p = 945881
-    q = 416579
-    cipher = [303148811097, 292385377402, 206125092806, 206125092806, 229570631758]
+    p = ' p of RSAE.py '
+    q = ' q of RSAE.py '
+    cipher = ' cipher of RSAE.py'
     result = Decrypt(cipher, p, q)
     print(str(result))
