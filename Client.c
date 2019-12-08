@@ -24,7 +24,7 @@ int main (int argc, char **argv) {
 
     /* Settings : Port & Address */
     bzero((char *)&server_addr, sizeof(server_addr));
-    sereer_addr.sin_family = PF_INET;
+    server_addr.sin_family = PF_INET;
     server_addr.sin_addr.s_addr = inet_addr("10.1.1.102");
     server_addr.sin_port = htons(8000);
 
